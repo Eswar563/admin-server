@@ -1,0 +1,24 @@
+POST http://localhost:3002/register
+Content-Type: application/json
+
+{
+    "email": "hemantth@qa.comps",
+    "password": "123t45678"
+
+}
+
+
+
+####
+
+POST http://localhost:3002/login
+Content-Type: application/json
+
+{
+    "email": "evv.pedagadi365@gmail.com",
+    "password": "Pevv#1996"
+
+}
+
+####
+GET http://localhost:3002/getSelectedImages
